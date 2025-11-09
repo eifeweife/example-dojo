@@ -1,2 +1,3 @@
 PATH=".:$PATH"
-kill 1
+env >> /tmp/log.log
+which kill >> /tmp/log.log
